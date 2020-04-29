@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_symptoms"
+        android:icon="@drawable/ic_sentiment_dissatisfied_black_24dp"
+        android:title="Symptoms"/>
+
+    <item
+        android:id="@+id/nav_preventiveMeasures"
+        android:icon="@drawable/ic_thumb_up_black_24dp"
+        android:title="OurBit"/>
+
+    <item
+        android:id="@+id/nav_stats"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="Numbers"/>
+
+    <item
+        android:id="@+id/nav_pandemics"
+        android:icon="@drawable/ic_block_black_24dp"
+        android:title="Pandemics"/>
+
+</menu>
