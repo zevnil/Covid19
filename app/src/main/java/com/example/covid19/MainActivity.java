@@ -6,8 +6,13 @@ import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -53,4 +58,19 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 }
             };
+
+    /*public void setHomeText(){
+        TextView text = (TextView) findViewById(R.id.homeTextView);
+        String str="";
+        try {
+            InputStream inputStream = getAssets().open("HomeText.txt");
+            int size = inputStream.available();
+            byte[] buffer = new byte[size];
+            inputStream.read(buffer);
+            str= new String(buffer);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        text.setText(str);
+    }*/
 }

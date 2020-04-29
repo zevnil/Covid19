@@ -23,7 +23,7 @@
 
     <item
         android:id="@+id/nav_pandemics"
-        android:icon="@drawable/ic_block_black_24dp"
+        android:icon="@drawable/ic_local_library_black_24dp"
         android:title="Pandemics"/>
 
 </menu>

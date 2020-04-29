@@ -2,19 +2,54 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/backgroundhome">
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="390dp"
+        android:layout_height="710dp"
+        android:layout_centerInParent="true">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:background="#FFFFFF"
-        android:text="What is covid19? background, \nother pandemic links possibly"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textSize="30sp"
-        android:visibility="visible"
-        app:drawableTint="#F8E0BC" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/homeTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeText1"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/homeTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeText2"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/homeTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeText3"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/homeTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeText4"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/homeTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeText5"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>
