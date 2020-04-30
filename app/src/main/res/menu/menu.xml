@@ -17,13 +17,14 @@
         android:title="OurBit"/>
 
     <item
+        android:id="@+id/nav_myths"
+        android:icon="@drawable/ic_block_black_24dp"
+        android:title="Myths"/>
+
+    <item
         android:id="@+id/nav_stats"
         android:icon="@drawable/ic_trending_up_black_24dp"
         android:title="Numbers"/>
 
-    <item
-        android:id="@+id/nav_pandemics"
-        android:icon="@drawable/ic_local_library_black_24dp"
-        android:title="Pandemics"/>
 
 </menu>
