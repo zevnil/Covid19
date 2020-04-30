@@ -5,14 +5,24 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
+
+    //private WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //webView = (WebView)findViewById(R.id.webViewId);
+        //WebSettings webSettings = webView.getSettings();
+        //webSettings.setJavaScriptEnabled(true);
+        //webView.loadUrl("https://www.worldometers.info/coronavirus/");
 
         BottomNavigationView bottomNav = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
