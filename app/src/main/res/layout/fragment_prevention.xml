@@ -6,6 +6,7 @@
 
 
     <ScrollView
+        android:id="@+id/scroll3"
         android:layout_width="390dp"
         android:layout_height="710dp"
         android:layout_centerInParent="true">
