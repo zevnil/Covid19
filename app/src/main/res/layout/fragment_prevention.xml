@@ -21,17 +21,27 @@
             <TextView
                 android:id="@+id/prevTextView1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="47dp"
+                android:paddingLeft="70sp"
                 android:text="@string/preventionsHeading"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
                 android:textSize="24dp"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:id="@+id/keepcalm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/keepcalm" />
+
             <TextView
                 android:id="@+id/prevTextView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
@@ -42,16 +52,27 @@
                 android:id="@+id/prevTextView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
                 android:textSize="20dp"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:id="@+id/soap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/soap" />
+
             <TextView
                 android:id="@+id/prevTextView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
@@ -62,16 +83,27 @@
                 android:id="@+id/prevTextView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText4"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
                 android:textSize="20dp"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:id="@+id/cough"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/cough" />
+
             <TextView
                 android:id="@+id/prevTextView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText5"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
@@ -82,6 +114,8 @@
                 android:id="@+id/prevTextView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText6"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
@@ -92,16 +126,27 @@
                 android:id="@+id/prevTextView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText7"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
                 android:textSize="20dp"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:id="@+id/stayHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/stayhome" />
+
             <TextView
                 android:id="@+id/prevTextView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText8"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
@@ -112,6 +157,8 @@
                 android:id="@+id/prevTextView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText9"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
@@ -122,11 +169,19 @@
                 android:id="@+id/prevTextView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/preventionsText10"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
                 android:textSize="20dp"
                 android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/flattenCurveID"
+                android:layout_width="wrap_content"
+                android:layout_height="192dp"
+                app:srcCompat="@drawable/flattencurve" />
 
         </LinearLayout>
     </ScrollView>

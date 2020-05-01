@@ -9,8 +9,8 @@
     <string name="transmissionText1">As COVID-19 is a new disease, many aspects of how it is spread are under investigation.\n</string>
     <string name="transmissionText2">1. The disease is spread during close contact, often by small droplets produced during coughing, sneezing, or talking.[8] These droplets can be inhaled by other people when in close contact (1 to 2 metres, 3 to 6 feet)\n</string>
     <string name="transmissionText3">2. Being relatively heavy, these droplets can fall on objects and surfaces around the sick person such as tables, doorknobs and handrails. People can become infected by touching these objects or surfaces, then touching their eyes, nose or mouth.\n</string>
-    <string name="transmissionText4">3. The virus is most contagious during the first three days after onset of symptoms, although spread is known to occur up to two days before symptoms appear and in later stages of the disease. Therefore, transmission is possible before symptoms develop.\n\n\n\n</string>
-    <string name="symptomsHeading">Symptoms\n</string>
+    <string name="transmissionText4">3. The virus is most contagious during the first three days after onset of symptoms, although spread is known to occur up to two days before symptoms appear and in later stages of the disease. Therefore, transmission is possible before symptoms develop.\n</string>
+    <string name="symptomsHeading">\n\n\nSymptoms\n</string>
     <string name="symptomsText1">Symptoms of COVID-19 can be relatively non-specific and infected people may be asymptomatic.\n</string>
     <string name="symptomsText2">1. The the most common symptoms are fever (88 per cent), dry cough (68 per cent) and tiredness.\n</string>
     <string name="symptomsText3">2. Other symptoms include respiratory sputum production (phlegm), loss of the sense of smell (only 15 per cent), shortness of breath, muscle and joint pain, sore throat, headache, chills, vomiting, hemoptysis, and diarrhea.\n</string>

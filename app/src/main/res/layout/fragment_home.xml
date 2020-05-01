@@ -20,13 +20,15 @@
             <ImageView
                 android:id="@+id/homeImage"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/backgroundhome" />
+                android:layout_height="192dp"
+                app:srcCompat="@drawable/home" />
 
             <TextView
                 android:id="@+id/homeTextView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/homeText1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
@@ -37,16 +39,27 @@
                 android:id="@+id/homeTextView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/homeText2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
                 android:textSize="20dp"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:id="@+id/planesick"
+                android:layout_width="wrap_content"
+                android:layout_height="375dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/planetissick" />
+
             <TextView
                 android:id="@+id/homeTextView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/homeText3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
@@ -57,6 +70,8 @@
                 android:id="@+id/homeTextView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/homeText4"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
@@ -67,11 +82,20 @@
                 android:id="@+id/homeTextView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:paddingRight="3sp"
                 android:text="@string/homeText5"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textIsSelectable="true"
                 android:textSize="20dp"
                 android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/diyas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/diyas" />
         </LinearLayout>
     </ScrollView>
 
